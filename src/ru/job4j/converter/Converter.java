@@ -3,10 +3,12 @@ package ru.job4j.converter;
 public class Converter {
 
     public static int rubleToEuro(int value){
+        //Необходимо изменить тип с int на double
         return value / 70;
     }
 
     public static int rubleToDollar(int value){
+        //Необходимо изменить тип с int на double
         return value / 60;
     }
 
